@@ -19,19 +19,14 @@
 
       <h1>Ben Rutter</h1>
       <nav>
-        
-        <a href="test.html">Test</a> &#183;
-        
-        <a href="blog.html">Blog</a> &#183;
-        
-        <a href="index.html">About</a> &#183;
-        
+        {% for label, link in navlinks.items() %}
+        <a href="{{ link }}">{{ label }}</a> &#183;
+        {% endfor %}
         <a href="https://github.com/benrutter">Github</a>  &#183;
         <a href="https://linkedin.com/in/benrrutter">LinkedIn</a>
       </nav>
 
-      <h1>Hi, I'm <mark>Ben</mark> 👋</h1>
-<p>This is a site with stuff on, I've set it up to generate all the content from markdown!</p>
+      {{ content }}
 
     </main>
 
