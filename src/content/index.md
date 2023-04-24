@@ -6,8 +6,8 @@ Anything I indepently develop is available under either an MIT or GPL open sourc
 
 Here are some key projects I've put together:
 
-## House of Left 🎨
-### Generative, mostly visual, art systems
+# House of Left 🎨
+## Generative, mostly visual, art systems
 
 I make and share generative art under the moniker *house of left*. I use a range of tools like my own Shades, Processing, p5.js, nannou and Sonic Pi.
 
@@ -15,8 +15,8 @@ I tend to explore simple geometry or color rules - there's some sound pieces, an
 
 You can check out a sample of stuff right here, follow me on (instagram)[https://www.instagram.com/houseofleft/] and (mastodon)[https://graphics.social/@houseofleft], or just check out the (code repos directly)[https://github.com/benrutter/house-of-left].
 
-## Shades 🕶️
-### A Python module for 2D generative image creation
+# Shades 🕶️
+## A Python module for 2D generative image creation
 
 Shades is a module for geometric image creation that helps produce colour gradient based artwork. It's built on a paradigm of reusable Shade objects to help create generative 2D images. It simplifies production of generative images, and features an easily hackable abstract base class for expanding upon the code base whenever needed.
 
@@ -33,8 +33,8 @@ I use the terminal a lot in my workflow, and having a dedicated file manager too
 The (source code is available on github)[https://github.com/benrutter/hop] and (you can download the tool through pip)[https://pypi.org/project/hop-file-browser/]
 
 
-## Clamshell
-### An experimental, python based interative shell
+# Clamshell
+## An experimental, python based interative shell
 
 Software development is a field with hundreds of well established and effective tools, sometimes though, you just get the urge to reinvent the wheel. I wanted to experiment with what my dream interative shell might look like, and landing on adapting Python with some additional convenience syntax and functions.
 
@@ -61,16 +61,16 @@ It's built with Phaser.js with original assets - I finished it off for Itch's Fi
 Play on (itch)[https://supercoolgames.itch.io/rad-waves] or (see more here)[https://github.com/benrutter/rad-waves]
 
 
-## Endless Asteroids 
-### The arcade classic reworked into an endless runner
+# Endless Asteroids 
+## The arcade classic reworked into an endless runner
 
 Endless Asteroids was a quick, fun project to try out the Phaser.js framework. It's a rework of the arcade classic asteroids, but as an endless runner.
 
 Play on (itch)[https://supercoolgames.itch.io/endless-asteroids] or (see more here)[https://github.com/benrutter/endless-asteroids]
 
 
-## This Websites Templating Tool 🌍
-### You're kinda looking at it now
+# This Websites Templating Tool 🌍
+## You're kinda looking at it now
 
 I think as a rule every developer at some stage makes their own website into a pet project. Hundreds of static site generators already exist, so I figured one more couldn't hurt.
 
