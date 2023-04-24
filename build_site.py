@@ -51,3 +51,6 @@ for item in [i for i in content_files if i.endswith('.js') or i.endswith('.css')
     print(item)
     shutil.copy(item, item.replace('src/templating/', ''))
 
+# and finally, copy over the .assets folder
+shutil.rmtree('.assets')
+shutil.copytree('src/content/.assets', '.assets')

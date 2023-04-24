@@ -20,9 +20,7 @@
       <h1>Ben Rutter</h1>
       <nav>
         
-        <a href="test.html">Test</a> &#183;
-        
-        <a href="blog.html">Blog</a> &#183;
+        <a href="art.html">Art</a> &#183;
         
         <a href="index.html">About</a> &#183;
         
@@ -31,7 +29,45 @@
       </nav>
 
       <h1>Hi, I'm <mark>Ben</mark> 👋</h1>
-<p>This is a site with stuff on, I've set it up to generate all the content from markdown!</p>
+<p>I'm a data/ML engineer, generative artist, and all round maker of things with code.</p>
+<p>Anything I indepently develop is available under either an MIT or GPL open source license and can be found on my github or codeberg repo.</p>
+<p>Here are some key projects I've put together:</p>
+<h2>House of Left 🎨</h2>
+<h3>Generative, mostly visual, art systems</h3>
+<p>I make and share generative art under the moniker <em>house of left</em>. I use a range of tools like my own Shades, Processing, p5.js, nannou and Sonic Pi.</p>
+<p>I tend to explore simple geometry or color rules - there's some sound pieces, and I have some video stuff in the the works, but for the most part I make static image generators that can be ran to produce different results each time.</p>
+<p>You can check out a sample of stuff right here, follow me on (instagram)[https://www.instagram.com/houseofleft/] and (mastodon)[https://graphics.social/@houseofleft], or just check out the (code repos directly)[https://github.com/benrutter/house-of-left].</p>
+<h2>Shades 🕶️</h2>
+<h3>A Python module for 2D generative image creation</h3>
+<p>Shades is a module for geometric image creation that helps produce colour gradient based artwork. It's built on a paradigm of reusable Shade objects to help create generative 2D images. It simplifies production of generative images, and features an easily hackable abstract base class for expanding upon the code base whenever needed.</p>
+<p>Although it makes some sensible choices like vectorised and batched Perlin noise calculations, it's still a Python native library (something I conciously chose so that it could easily be pulled apart and tweaked by the user). This means it isn't exactly a speed demon, so although it works well for sketches, isn't a great choice for complex 3d image generation or animation. For two dimensional artworks, I find it a  really helpful tool, and I use it all the time for artworks, even if later translating them into Processing or Nannou pieces.</p>
+<p>Check out the (source code on github)[https://github.com/benrutter/shades] or (download the library through pip)[https://pypi.org/project/shades/]</p>
+<h2>Hop 📁</h2>
+<h2>A terminal based file browser for Linux, Apple and Windows</h2>
+<p>I use the terminal a lot in my workflow, and having a dedicated file manager tool can be really helpful when deleting, moving or copying several files at once. Projects like Midnight Commander, Ranger and nnn all make this easier on Linux, but can't be used on Windows. I wanted to make an OS-agnostic tool that was simple and easy to get up and running with, so I built Hop, and use it in my workflow to this day.</p>
+<p>The (source code is available on github)[https://github.com/benrutter/hop] and (you can download the tool through pip)[https://pypi.org/project/hop-file-browser/]</p>
+<h2>Clamshell</h2>
+<h3>An experimental, python based interative shell</h3>
+<p>Software development is a field with hundreds of well established and effective tools, sometimes though, you just get the urge to reinvent the wheel. I wanted to experiment with what my dream interative shell might look like, and landing on adapting Python with some additional convenience syntax and functions.</p>
+<p>I strongly recommend you <em>don't</em> use this as your daily driver, but it works on linux, apple and windows and has some cool features like user friendly syntax, autocompletion, a dynamic "cd" equivalent that you can use to switch into key folders from any location, a fully customisable python based config and an "rm" equivalent that sends stuff into your OS's trash can instead of burning it out of existence entirely.</p>
+<p>Check out the (source code)[https://github.com/benrutter/clamshell], read about it on (hacker news)[https://news.ycombinator.com/item?id=34557775], or (road test it yourself)(https://pypi.org/project/clamshell/)</p>
+<h2>mpy3 🎵</h2>
+<h3>An ultra minimal, command line mp3 player</h3>
+<p>I wanted a simple, no-frills, distraction-free command line mp3 player, and couldn't find one, so put together mpy3. The whole thing has around 50 lines of code, and is written with Typer and Pygame - it plays mp3s with a very, verrryyy minimal feature set (shuffle, skip and nothing else).</p>
+<p>Check out the (source code)[https://github.com/benrutter/mpy3] or (download through pip)[https://pypi.org/project/mpy3]</p>
+<h2>Rad Waves 🌊</h2>
+<h3>An arcade surfing game with original assets</h3>
+<p>Rad waves is an arcade surfing game. You get points for doing spins and picking up coins, but die if you touch a skull, just like in real life.</p>
+<p>It's built with Phaser.js with original assets - I finished it off for Itch's Finally Finish Something 2022 game jam which was a bunch of fun.</p>
+<p>Play on (itch)[https://supercoolgames.itch.io/rad-waves] or (see more here)[https://github.com/benrutter/rad-waves]</p>
+<h2>Endless Asteroids</h2>
+<h3>The arcade classic reworked into an endless runner</h3>
+<p>Endless Asteroids was a quick, fun project to try out the Phaser.js framework. It's a rework of the arcade classic asteroids, but as an endless runner.</p>
+<p>Play on (itch)[https://supercoolgames.itch.io/endless-asteroids] or (see more here)[https://github.com/benrutter/endless-asteroids]</p>
+<h2>This Websites Templating Tool 🌍</h2>
+<h3>You're kinda looking at it now</h3>
+<p>I think as a rule every developer at some stage makes their own website into a pet project. Hundreds of static site generators already exist, so I figured one more couldn't hurt.</p>
+<p>This website uses Python's Jinja2 templating along with classless CSS and file structures to generate itself from only markdown files.</p>
 
     </main>
 
