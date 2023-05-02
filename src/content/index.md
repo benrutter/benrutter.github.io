@@ -1,11 +1,11 @@
 
 ![banner](.assets/banner.png)
 
-Hi, I'm Ben 👋 I'm a data/ML engineer, generative artist, and all round maker of things with code.
+Hi, I'm Ben 👋 I'm a data/ML engineer, generative artist, and all round maker-of-stuff-with-code.
 
 Anything I indepently develop is available under either an MIT or GPL open source license and can be found on my github or codeberg repo.
 
-Here are some key projects I've put together:
+Here's a sample of some of my past projects.
 
 # House of Left 🎨
 ## Generative, mostly visual, art systems
@@ -14,7 +14,7 @@ I make and share generative art under the moniker *house of left*. I use a range
 
 I tend to explore simple geometry or color rules - there's some sound pieces, and I have some video stuff in the the works, but for the most part I make static image generators that can be ran to produce different results each time.
 
-You can check out a sample of stuff right here, follow me on [instagram](https://www.instagram.com/houseofleft/) and [mastodon](https://graphics.social/@houseofleft), or just check out the [code repos directly][https://github.com/benrutter/house-of-left).
+You can check out a sample of stuff right here, follow me on [instagram](https://www.instagram.com/houseofleft/) and [mastodon](https://graphics.social/@houseofleft), or just check out the [code repos directly](https://github.com/benrutter/house-of-left).
 
 # Shades 🕶️
 ## A Python module for 2D generative image creation
@@ -62,7 +62,7 @@ It's built with Phaser.js with original assets - I finished it off for Itch's Fi
 [Play on itch](https://supercoolgames.itch.io/rad-waves) or [see more here](https://github.com/benrutter/rad-waves)
 
 
-# Endless Asteroids 
+# Endless Asteroids 🕹️
 ## The arcade classic reworked into an endless runner
 
 Endless Asteroids was a quick, fun project to try out the Phaser.js framework. It's a rework of the arcade classic asteroids, but as an endless runner.
