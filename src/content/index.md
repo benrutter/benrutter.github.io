@@ -1,6 +1,7 @@
-# Hi, I'm <mark>Ben</mark> 👋
 
-I'm a data/ML engineer, generative artist, and all round maker of things with code.
+![banner](.assets/banner.png)
+
+Hi, I'm Ben 👋 I'm a data/ML engineer, generative artist, and all round maker of things with code.
 
 Anything I indepently develop is available under either an MIT or GPL open source license and can be found on my github or codeberg repo.
 
@@ -25,7 +26,7 @@ Although it makes some sensible choices like vectorised and batched Perlin noise
 Check out the [source code on github](https://github.com/benrutter/shades) or [download the library through pip](https://pypi.org/project/shades/)
 
 
-## Hop 📁
+# Hop 📁
 ## A terminal based file browser for Linux, Apple and Windows
 
 I use the terminal a lot in my workflow, and having a dedicated file manager tool can be really helpful when deleting, moving or copying several files at once. Projects like Midnight Commander, Ranger and nnn all make this easier on Linux, but can't be used on Windows. I wanted to make an OS-agnostic tool that was simple and easy to get up and running with, so I built Hop, and use it in my workflow to this day.
@@ -33,7 +34,7 @@ I use the terminal a lot in my workflow, and having a dedicated file manager too
 The [source code is available on github](https://github.com/benrutter/hop) and [you can download the tool through pip](https://pypi.org/project/hop-file-browser/)
 
 
-# Clamshell
+# Clamshell 🦪
 ## An experimental, python based interative shell
 
 Software development is a field with hundreds of well established and effective tools, sometimes though, you just get the urge to reinvent the wheel. I wanted to experiment with what my dream interative shell might look like, and landing on adapting Python with some additional convenience syntax and functions.
@@ -43,7 +44,7 @@ I strongly recommend you *don't* use this as your daily driver, but it works on 
 Check out the [source code](https://github.com/benrutter/clamshell), read about it on [hacker news](https://news.ycombinator.com/item?id=34557775), or [road test it yourself](https://pypi.org/project/clamshell/)
 
 
-## mpy3 🎵
+# mpy3 🎵
 ### An ultra minimal, command line mp3 player
 
 I wanted a simple, no-frills, distraction-free command line mp3 player, and couldn't find one, so put together mpy3. The whole thing has around 50 lines of code, and is written with Typer and Pygame - it plays mp3s with a very, verrryyy minimal feature set (shuffle, skip and nothing else).
@@ -51,8 +52,8 @@ I wanted a simple, no-frills, distraction-free command line mp3 player, and coul
 Check out the [source code](https://github.com/benrutter/mpy3) or [download through pip](https://pypi.org/project/mpy3)
 
 
-## Rad Waves 🌊 
-### An arcade surfing game with original assets
+# Rad Waves 🌊 
+## An arcade surfing game with original assets
 
 Rad waves is an arcade surfing game. You get points for doing spins and picking up coins, but die if you touch a skull, just like in real life.
 
@@ -68,10 +69,3 @@ Endless Asteroids was a quick, fun project to try out the Phaser.js framework. I
 
 [Play on itch](https://supercoolgames.itch.io/endless-asteroids) or [see more here](https://github.com/benrutter/endless-asteroids)
 
-
-# This Websites Templating Tool 🌍
-## You're kinda looking at it now
-
-I think as a rule every developer at some stage makes their own website into a pet project. Hundreds of static site generators already exist, so I figured one more couldn't hurt.
-
-This website uses Python's Jinja2 templating along with classless CSS and file structures to generate itself from only markdown files.
