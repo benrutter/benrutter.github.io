@@ -1,14 +1,9 @@
-# Plan
+# Personal Site Generateor
 
-All content written in markdown, and converted through script (pre-commit hook) into static website
+All content written in markdown, and converted through script into static website.
 
-Let's have two folders:
+Any mardown content in "src/content" is built out into html files with "build_site.py"
 
-templating/
-content/
+Still to do:
 
-absolute dream is that the header bar is based on folder structure?
-
-and use jinja2 templates to generate everything.
-
-I think in theory this should all be pretty easy?
+[ ] Pre-commit hook suppor
