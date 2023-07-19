@@ -28,6 +28,10 @@ for page in actual_content_files:
         content=content,
         navlinks=nav_links
     )
+    rendered_content = rendered_content.replace(
+        ".assets/",
+        "https://raw.githubusercontent.com/benrutter/benrutter.github.io/main/.assets/",
+    )
     with open(f"{page.replace('src/content/', '').replace('md', 'html').replace('/', '.')}", 'w', encoding='utf-8') as file:
         file.write(rendered_content)
 
@@ -39,6 +43,10 @@ for dir in [i for i in content_files if os.path.isdir(i)]:
         navlinks=nav_links,
         links=items,
         title=dir.replace('src/content/', ''),
+    )
+    rendered_content = rendered_content.replace(
+        ".assets/",
+        "https://raw.githubusercontent.com/benrutter/benrutter.github.io/main/.assets/",
     )
     with open(f"{dir.split('/')[-1]}.html", 'w', encoding='utf-8') as file:
         file.write(rendered_content)
