@@ -1,0 +1,4 @@
+baseURL = "http://benrutter.github.io"
+languageCode = "en-us"
+title = "Hi, I'm Ben 👋"
+theme = "archie"
