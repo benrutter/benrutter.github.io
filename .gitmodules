@@ -1,0 +1,3 @@
+[submodule "themes/bluey"]
+	path = themes/bluey
+	url = git@github.com:benrutter/bluey.git

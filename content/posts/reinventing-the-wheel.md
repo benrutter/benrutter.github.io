@@ -5,9 +5,6 @@ date: 2023-08-25
 draft: false
 ---
 
-
-# Reinventing The Wheel
-
 Good news if you work in software - impress your friends and colleagues with these magnificent sentences!
 
 - "Have we thought about scalability?"
