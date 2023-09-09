@@ -20,4 +20,27 @@ That's why I'm introducing my ultra-trademarked-propriety-copyrighted-pay-me-£1
 - Performant: the code runs faster on average
 - Maintainable: it's easier to make changes to the codebase, and avoiding breakages over time
 
-This isn't some kind of holy trinity and there's no other good qualities code can have.
+This isn't some kind of holy trinity and there's plenty of other good qualities code can have, but these correspond nicely to the three things that we do with code. Namely reading, running and editing.
+
+Rather than go into some kind of diatribe about the necessary and sufficient conditions for each, I think it's more helpful just to look at some quick examples where we have a choice to trade one off for the other.
+
+## Performance VS Expressiveness
+
+This is probably the most common trade off because performance often introduces complexity, which almost always affects codes readability in a negative way. Take the following python code:
+
+```pythonn
+def biggest_divisible_by_seven_value_key_in_dict(
+    some_dict: dict[Any: float],
+) -> float:
+    """
+    Return the corresponding key, for the largest
+    divisible by seven value in a dict
+    """
+    divisible_by_seven_dict = {k: v for k, v in some_dict.items() if v % 7 == 0}
+    return max(
+      some_dict.values(),
+      key=lambda x: x if x % 7 == 0 else 0,
+    )
+```
+
+This is a pretty silly example, but it's 
