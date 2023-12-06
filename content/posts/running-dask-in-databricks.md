@@ -86,3 +86,16 @@ If we print out x, we'll see it's completed - yay, we have a nice distributed da
 ## Disclaimer
 
 This might not be the best solution depending on your needs. Databricks comes with a bunch of additional tooling which means a heavy (i.e. slow/expensive) footprint for just running dask. If you're *never going to use spark* you might be better off either managing a kubernetes instance, or just getting a *dask as a service* offering a la [coiled](https://coiled.io).
+
+
+## Edit: Update
+
+This experiment, along with a lot of extra work from much smarter people, winded its way into an actual supported libary. This is a good guide if you're interested in what that library is doing under the hood (although it has some much improved tweaks, like waiting for response calls rather than just sleeping for 80 seconds) but if you actually want to run dask in databricks, just add this to your init.sh:
+
+```bash
+/databricks/python/bin/pip install --upgrade dask[complete] dask-databricks
+dask databricks run
+```
+
+You'll also have access to dask's monitoring dashboard amongst other handy utils, check out the project over at [dask-contrib/dask-databricks](https://github.com/dask-contrib/dask-databricks)
+
