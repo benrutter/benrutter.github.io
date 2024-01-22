@@ -3,6 +3,10 @@ languageCode = "en-us"
 title = "Hi, I'm Ben 👋🏻"
 theme = "bluey"
 
+pygmentsstyle = "github-dark"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
 [[menu.main]]
 name = "Blog"
 url = "/posts"
