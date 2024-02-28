@@ -1,7 +1,7 @@
 ---
 title: Empty Objects & Pandas' Pipe Method
 description: Learning design patterns by example
-data: 2024-02-22
+date: 2024-02-22
 draft: false
 ---
 
