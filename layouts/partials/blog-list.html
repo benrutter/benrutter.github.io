@@ -1,0 +1,8 @@
+<h3>Blog Posts</h3>
+<ul>
+    {{ range . }}
+        <li>
+            <a href="{{ .Permalink }}">{{ .Title }}</a> - {{ .Date.Format "January 2, 2006" }}
+        </li>
+    {{ end }}
+</ul> 

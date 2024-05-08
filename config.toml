@@ -1,39 +1,24 @@
 baseURL = "http://benrutter.github.io"
-languageCode = "en-us"
+languageCode = "en-uk"
 title = "Hi, I'm Ben 🛸"
-theme = "bluey"
+theme = "hugo-bearblog"
 
 pygmentsstyle = "github-dark"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
+
 [[menu.main]]
-name = "Blog"
-url = "/posts"
+name = "Code"
+url = "https://github.com/benrutter"
 weight = 2
 
 [[menu.main]]
-name = "About"
-url = "/about"
+name = "Art"
+url = "https://graphics.social/@houseofleft"
 weight = 3
 
-
-[[params.social]]
-name = "GitHub"
-icon = "github"
-url = "https://github.com/benrutter"
-
-[[params.social]]
-name = "Mastodon"
-icon = "twitter"
-url = "https://graphics.social/@houseofleft"
-
-[[params.social]]
-name = "Mastodon"
-icon = "linkedin"
-url = "https://linkedin.com/in/benrrutter"
-
-[[params.social]]
+[[menu.main]]
 name = "RSS"
-icon = "rss"
 url = "/posts/index.xml"
+weight = 4
