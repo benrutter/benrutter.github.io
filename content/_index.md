@@ -1,1 +1,1 @@
-I'm a developer working in data and ML ops and based in the south of England. I produce generative art under the handle [*houseofleft*](https://graphics.social/@houseofleft) and make small tools and software for my own use.
+I'm a developer working in data and ML ops and based in the south of England. I work on open source data tools, and sometimes art or small tools/software for my own use.

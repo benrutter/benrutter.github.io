@@ -14,8 +14,8 @@ url = "https://github.com/benrutter"
 weight = 2
 
 [[menu.main]]
-name = "Art"
-url = "https://graphics.social/@houseofleft"
+name = "Mastodon"
+url = "https://mastodon.green/@benrutter"
 weight = 3
 
 [[menu.main]]
