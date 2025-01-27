@@ -1,6 +1,6 @@
 baseURL = "http://benrutter.github.io"
 languageCode = "en-uk"
-title = "Hi, I'm Ben 🛸"
+title = "Hi, I'm Ben 🫎"
 theme = "hugo-bearblog"
 
 pygmentsstyle = "github-dark"
